@@ -1,0 +1,3237 @@
+[
+    {
+        "ID": "1471",
+        "PARENT_ID": "0",
+        "NAME": " K\u00fclt\u00fcr Kitaplar\u0131",
+        "URL": "kultur-kitaplari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 1,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1480",
+                "PARENT_ID": "1471",
+                "NAME": "Dini",
+                "URL": "kultur-kitaplari\/dini",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1481",
+                "PARENT_ID": "1471",
+                "NAME": "Tarih",
+                "URL": "kultur-kitaplari\/tarih",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1472",
+                "PARENT_ID": "1471",
+                "NAME": "Roman",
+                "URL": "kultur-kitaplari\/roman",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1473",
+                        "PARENT_ID": "1472",
+                        "NAME": "Tarih",
+                        "URL": "kultur-kitaplari\/roman\/tarih",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1475",
+                        "PARENT_ID": "1472",
+                        "NAME": "Di\u011fer",
+                        "URL": "kultur-kitaplari\/roman\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1476",
+                        "PARENT_ID": "1472",
+                        "NAME": "Biyografi",
+                        "URL": "kultur-kitaplari\/roman\/biyografi",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1478",
+                        "PARENT_ID": "1472",
+                        "NAME": "Fantastik",
+                        "URL": "kultur-kitaplari\/roman\/fantastik",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1477",
+                        "PARENT_ID": "1472",
+                        "NAME": "Deneme",
+                        "URL": "kultur-kitaplari\/roman\/deneme",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1474",
+                        "PARENT_ID": "1472",
+                        "NAME": "Bilim Kurgu",
+                        "URL": "kultur-kitaplari\/roman\/bilim-kurgu",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1482",
+                "PARENT_ID": "1471",
+                "NAME": "Ansiklopedi",
+                "URL": "kultur-kitaplari\/ansiklopedi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1483",
+                "PARENT_ID": "1471",
+                "NAME": "Di\u011fer",
+                "URL": "kultur-kitaplari\/diger",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1484",
+                "PARENT_ID": "1471",
+                "NAME": "Sa\u011fl\u0131k",
+                "URL": "kultur-kitaplari\/saglik",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1485",
+                "PARENT_ID": "1471",
+                "NAME": "Hat\u0131ra",
+                "URL": "kultur-kitaplari\/hatira",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1486",
+                "PARENT_ID": "1471",
+                "NAME": "\u015eiir",
+                "URL": "kultur-kitaplari\/siir",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1487",
+                "PARENT_ID": "1471",
+                "NAME": "Biyografi",
+                "URL": "kultur-kitaplari\/biyografi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1488",
+                "PARENT_ID": "1471",
+                "NAME": "Ara\u015ft\u0131rma-\u0130nceleme",
+                "URL": "kultur-kitaplari\/arastirma-inceleme",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1489",
+                "PARENT_ID": "1471",
+                "NAME": "Hikaye",
+                "URL": "kultur-kitaplari\/hikaye",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1490",
+                        "PARENT_ID": "1489",
+                        "NAME": "F\u0131kra",
+                        "URL": "kultur-kitaplari\/hikaye\/fikra",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1491",
+                "PARENT_ID": "1471",
+                "NAME": "Dergi",
+                "URL": "kultur-kitaplari\/dergi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1492",
+                        "PARENT_ID": "1491",
+                        "NAME": "Dini",
+                        "URL": "kultur-kitaplari\/dergi\/dini",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1614",
+                "PARENT_ID": "1471",
+                "NAME": "Deneme",
+                "URL": "kultur-kitaplari\/deneme",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1493",
+        "PARENT_ID": "0",
+        "NAME": "\u00c7ocuk Edebiyat\u0131",
+        "URL": "cocuk-edebiyati",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 0,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1494",
+                "PARENT_ID": "1493",
+                "NAME": "Hikaye",
+                "URL": "cocuk-edebiyati\/hikaye",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1495",
+                        "PARENT_ID": "1494",
+                        "NAME": "Di\u011fer",
+                        "URL": "cocuk-edebiyati\/hikaye\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1496",
+                        "PARENT_ID": "1494",
+                        "NAME": "Dini",
+                        "URL": "cocuk-edebiyati\/hikaye\/dini",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1497",
+                        "PARENT_ID": "1494",
+                        "NAME": "Fabl",
+                        "URL": "cocuk-edebiyati\/hikaye\/fabl",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1498",
+                        "PARENT_ID": "1494",
+                        "NAME": "Bilim Kurgu",
+                        "URL": "cocuk-edebiyati\/hikaye\/bilim-kurgu",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1499",
+                        "PARENT_ID": "1494",
+                        "NAME": "3D Kitap",
+                        "URL": "cocuk-edebiyati\/hikaye\/3d-kitap",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1500",
+                        "PARENT_ID": "1494",
+                        "NAME": "Polisiye",
+                        "URL": "cocuk-edebiyati\/hikaye\/polisiye",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1501",
+                        "PARENT_ID": "1494",
+                        "NAME": "Destan",
+                        "URL": "cocuk-edebiyati\/hikaye\/destan",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1502",
+                        "PARENT_ID": "1494",
+                        "NAME": "S\u0131n\u0131f Kitapl\u0131\u011f\u0131m",
+                        "URL": "cocuk-edebiyati\/hikaye\/sinif-kitapligim",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1503",
+                        "PARENT_ID": "1494",
+                        "NAME": "Ansiklopedi",
+                        "URL": "cocuk-edebiyati\/hikaye\/ansiklopedi",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1504",
+                        "PARENT_ID": "1494",
+                        "NAME": "100 Temel Eser",
+                        "URL": "cocuk-edebiyati\/hikaye\/100-temel-eser",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1505",
+                        "PARENT_ID": "1494",
+                        "NAME": "Fantastik",
+                        "URL": "cocuk-edebiyati\/hikaye\/fantastik",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1506",
+                        "PARENT_ID": "1494",
+                        "NAME": "Tarih",
+                        "URL": "cocuk-edebiyati\/hikaye\/tarih",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1507",
+                        "PARENT_ID": "1494",
+                        "NAME": "Atlas",
+                        "URL": "cocuk-edebiyati\/hikaye\/atlas",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1508",
+                "PARENT_ID": "1493",
+                "NAME": "Masal",
+                "URL": "cocuk-edebiyati\/masal",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1509",
+                        "PARENT_ID": "1508",
+                        "NAME": "Di\u011fer",
+                        "URL": "cocuk-edebiyati\/masal\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1510",
+                        "PARENT_ID": "1508",
+                        "NAME": "Dini",
+                        "URL": "cocuk-edebiyati\/masal\/dini",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1511",
+                        "PARENT_ID": "1508",
+                        "NAME": "Fabl",
+                        "URL": "cocuk-edebiyati\/masal\/fabl",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1512",
+                        "PARENT_ID": "1508",
+                        "NAME": "Ansiklopedi",
+                        "URL": "cocuk-edebiyati\/masal\/ansiklopedi",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1513",
+                        "PARENT_ID": "1508",
+                        "NAME": "Piyes",
+                        "URL": "cocuk-edebiyati\/masal\/piyes",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1514",
+                "PARENT_ID": "1493",
+                "NAME": "Roman",
+                "URL": "cocuk-edebiyati\/roman",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1515",
+                        "PARENT_ID": "1514",
+                        "NAME": "Di\u011fer",
+                        "URL": "cocuk-edebiyati\/roman\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1516",
+                        "PARENT_ID": "1514",
+                        "NAME": "Polisiye",
+                        "URL": "cocuk-edebiyati\/roman\/polisiye",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1517",
+                        "PARENT_ID": "1514",
+                        "NAME": "Bilim Kurgu",
+                        "URL": "cocuk-edebiyati\/roman\/bilim-kurgu",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1518",
+                        "PARENT_ID": "1514",
+                        "NAME": "100 Temel Eser",
+                        "URL": "cocuk-edebiyati\/roman\/100-temel-eser",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1519",
+                        "PARENT_ID": "1514",
+                        "NAME": "Fantastik",
+                        "URL": "cocuk-edebiyati\/roman\/fantastik",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1520",
+                        "PARENT_ID": "1514",
+                        "NAME": "Tarih",
+                        "URL": "cocuk-edebiyati\/roman\/tarih",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1521",
+                "PARENT_ID": "1493",
+                "NAME": "K\u00fclt\u00fcr",
+                "URL": "cocuk-edebiyati\/kultur",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1522",
+                        "PARENT_ID": "1521",
+                        "NAME": "Dini",
+                        "URL": "cocuk-edebiyati\/kultur\/dini",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1523",
+                "PARENT_ID": "1493",
+                "NAME": "Etkinlik",
+                "URL": "cocuk-edebiyati\/etkinlik",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1524",
+                        "PARENT_ID": "1523",
+                        "NAME": "Di\u011fer",
+                        "URL": "cocuk-edebiyati\/etkinlik\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1525",
+                        "PARENT_ID": "1523",
+                        "NAME": "Oyun",
+                        "URL": "cocuk-edebiyati\/etkinlik\/oyun",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1526",
+        "PARENT_ID": "0",
+        "NAME": "Okul \u00d6ncesi",
+        "URL": "okul-oncesi",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 3,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1527",
+                "PARENT_ID": "1526",
+                "NAME": "Hikaye",
+                "URL": "okul-oncesi\/hikaye",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1528",
+                        "PARENT_ID": "1527",
+                        "NAME": "Di\u011fer",
+                        "URL": "okul-oncesi\/hikaye\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1529",
+                "PARENT_ID": "1526",
+                "NAME": "Yard\u0131mc\u0131 Ders Kitab\u0131",
+                "URL": "okul-oncesi\/yardimci-ders-kitabi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1530",
+                        "PARENT_ID": "1529",
+                        "NAME": "Di\u011fer",
+                        "URL": "okul-oncesi\/yardimci-ders-kitabi\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1531",
+                "PARENT_ID": "1526",
+                "NAME": "Masal",
+                "URL": "okul-oncesi\/masal",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1532",
+                        "PARENT_ID": "1531",
+                        "NAME": "Di\u011fer",
+                        "URL": "okul-oncesi\/masal\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1533",
+                "PARENT_ID": "1526",
+                "NAME": "Etkinlik",
+                "URL": "okul-oncesi\/etkinlik",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1534",
+                        "PARENT_ID": "1533",
+                        "NAME": "Boyama",
+                        "URL": "okul-oncesi\/etkinlik\/boyama",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1535",
+                        "PARENT_ID": "1533",
+                        "NAME": "Di\u011fer",
+                        "URL": "okul-oncesi\/etkinlik\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1536",
+        "PARENT_ID": "0",
+        "NAME": "\u0130lkokul E\u011fitim Yay\u0131nlar\u0131",
+        "URL": "ilkokul-egitim-yayinlari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 4,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1542",
+                "PARENT_ID": "1536",
+                "NAME": "Deneme S\u0131navlar\u0131",
+                "URL": "ilkokul-egitim-yayinlari\/deneme-sinavlari",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1543",
+                        "PARENT_ID": "1542",
+                        "NAME": "Di\u011fer",
+                        "URL": "ilkokul-egitim-yayinlari\/deneme-sinavlari\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1537",
+                "PARENT_ID": "1536",
+                "NAME": "Yard\u0131mc\u0131 Ders Kitab\u0131",
+                "URL": "ilkokul-egitim-yayinlari\/yardimci-ders-kitabi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1538",
+                        "PARENT_ID": "1537",
+                        "NAME": "Di\u011fer",
+                        "URL": "ilkokul-egitim-yayinlari\/yardimci-ders-kitabi\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1539",
+                        "PARENT_ID": "1537",
+                        "NAME": "Ak\u0131ll\u0131 Defter",
+                        "URL": "ilkokul-egitim-yayinlari\/yardimci-ders-kitabi\/akilli-defter",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1540",
+                        "PARENT_ID": "1537",
+                        "NAME": "Yaprak Test",
+                        "URL": "ilkokul-egitim-yayinlari\/yardimci-ders-kitabi\/yaprak-test",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1541",
+                        "PARENT_ID": "1537",
+                        "NAME": "Soru Bankas\u0131",
+                        "URL": "ilkokul-egitim-yayinlari\/yardimci-ders-kitabi\/soru-bankasi",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1544",
+        "PARENT_ID": "0",
+        "NAME": "Ortaokul E\u011fitim Yay\u0131nlar\u0131",
+        "URL": "ortaokul-egitim-yayinlari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 5,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1545",
+                "PARENT_ID": "1544",
+                "NAME": "Yard\u0131mc\u0131 Ders Kitab\u0131",
+                "URL": "ortaokul-egitim-yayinlari\/yardimci-ders-kitabi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1546",
+                        "PARENT_ID": "1545",
+                        "NAME": "Ak\u0131ll\u0131 Defter",
+                        "URL": "ortaokul-egitim-yayinlari\/yardimci-ders-kitabi\/akilli-defter",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1547",
+                        "PARENT_ID": "1545",
+                        "NAME": "Yaprak Test",
+                        "URL": "ortaokul-egitim-yayinlari\/yardimci-ders-kitabi\/yaprak-test",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1548",
+                        "PARENT_ID": "1545",
+                        "NAME": "Soru Bankas\u0131",
+                        "URL": "ortaokul-egitim-yayinlari\/yardimci-ders-kitabi\/soru-bankasi",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1549",
+                        "PARENT_ID": "1545",
+                        "NAME": "F\u00f6y",
+                        "URL": "ortaokul-egitim-yayinlari\/yardimci-ders-kitabi\/foy",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1550",
+                        "PARENT_ID": "1545",
+                        "NAME": "Di\u011fer",
+                        "URL": "ortaokul-egitim-yayinlari\/yardimci-ders-kitabi\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1551",
+                "PARENT_ID": "1544",
+                "NAME": "Ders Kitab\u0131",
+                "URL": "ortaokul-egitim-yayinlari\/ders-kitabi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1552",
+                        "PARENT_ID": "1551",
+                        "NAME": "Dini",
+                        "URL": "ortaokul-egitim-yayinlari\/ders-kitabi\/dini",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1553",
+                "PARENT_ID": "1544",
+                "NAME": "Deneme S\u0131navlar\u0131",
+                "URL": "ortaokul-egitim-yayinlari\/deneme-sinavlari",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1554",
+                        "PARENT_ID": "1553",
+                        "NAME": "Di\u011fer",
+                        "URL": "ortaokul-egitim-yayinlari\/deneme-sinavlari\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1555",
+        "PARENT_ID": "0",
+        "NAME": "Yabanc\u0131 Dil Kitaplar\u0131",
+        "URL": "yabanci-dil-kitaplari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 6,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1556",
+                "PARENT_ID": "1555",
+                "NAME": "K\u00fclt\u00fcr",
+                "URL": "yabanci-dil-kitaplari\/kultur",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1557",
+                        "PARENT_ID": "1556",
+                        "NAME": "Dini",
+                        "URL": "yabanci-dil-kitaplari\/kultur\/dini",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1558",
+                        "PARENT_ID": "1556",
+                        "NAME": "Di\u011fer",
+                        "URL": "yabanci-dil-kitaplari\/kultur\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1559",
+                "PARENT_ID": "1555",
+                "NAME": "Hikaye",
+                "URL": "yabanci-dil-kitaplari\/hikaye",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1560",
+                        "PARENT_ID": "1559",
+                        "NAME": "Fabl",
+                        "URL": "yabanci-dil-kitaplari\/hikaye\/fabl",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1561",
+                        "PARENT_ID": "1559",
+                        "NAME": "Di\u011fer",
+                        "URL": "yabanci-dil-kitaplari\/hikaye\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1562",
+                "PARENT_ID": "1555",
+                "NAME": "Yard\u0131mc\u0131 Ders Kitab\u0131",
+                "URL": "yabanci-dil-kitaplari\/yardimci-ders-kitabi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1563",
+                        "PARENT_ID": "1562",
+                        "NAME": "Di\u011fer",
+                        "URL": "yabanci-dil-kitaplari\/yardimci-ders-kitabi\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1564",
+                "PARENT_ID": "1555",
+                "NAME": "S\u00f6zl\u00fckler",
+                "URL": "yabanci-dil-kitaplari\/sozlukler",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1565",
+                        "PARENT_ID": "1564",
+                        "NAME": "Di\u011fer",
+                        "URL": "yabanci-dil-kitaplari\/sozlukler\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1566",
+        "PARENT_ID": "0",
+        "NAME": "Etkinlik Kitaplar\u0131",
+        "URL": "etkinlik-kitaplari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 7,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1567",
+                "PARENT_ID": "1566",
+                "NAME": "Etkinlik",
+                "URL": "etkinlik-kitaplari\/etkinlik",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1574",
+                        "PARENT_ID": "1567",
+                        "NAME": "Oyun",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/oyun",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1573",
+                        "PARENT_ID": "1567",
+                        "NAME": "F\u0131kra",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/fikra",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1572",
+                        "PARENT_ID": "1567",
+                        "NAME": "Bilmece",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/bilmece",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1571",
+                        "PARENT_ID": "1567",
+                        "NAME": "Yapboz",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/yapboz",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1575",
+                        "PARENT_ID": "1567",
+                        "NAME": "Piyes",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/piyes",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1576",
+                        "PARENT_ID": "1567",
+                        "NAME": "\u015eiir",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/siir",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1570",
+                        "PARENT_ID": "1567",
+                        "NAME": "Maket",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/maket",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1569",
+                        "PARENT_ID": "1567",
+                        "NAME": "Di\u011fer",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1568",
+                        "PARENT_ID": "1567",
+                        "NAME": "Boyama",
+                        "URL": "etkinlik-kitaplari\/etkinlik\/boyama",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1577",
+        "PARENT_ID": "0",
+        "NAME": "Tatil Kitaplar\u0131",
+        "URL": "tatil-kitaplari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 8,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1580",
+                "PARENT_ID": "1577",
+                "NAME": "Yaz Tatil",
+                "URL": "tatil-kitaplari\/yaz-tatil",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1579",
+                "PARENT_ID": "1577",
+                "NAME": "K\u0131\u015f Tatil",
+                "URL": "tatil-kitaplari\/kis-tatil",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1581",
+                "PARENT_ID": "1577",
+                "NAME": "Di\u011fer",
+                "URL": "tatil-kitaplari\/diger",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1582",
+        "PARENT_ID": "0",
+        "NAME": "S\u00f6zl\u00fckler",
+        "URL": "sozlukler",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 9,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1584",
+                "PARENT_ID": "1582",
+                "NAME": "Di\u011fer",
+                "URL": "sozlukler\/diger",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            },
+            {
+                "ID": "1585",
+                "PARENT_ID": "1582",
+                "NAME": "Atlas",
+                "URL": "sozlukler\/atlas",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "true",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1586",
+        "PARENT_ID": "0",
+        "NAME": "Kurumsal Deneme S\u0131navlar\u0131",
+        "URL": "kurumsal-deneme-sinavlari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 10,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1587",
+                "PARENT_ID": "1586",
+                "NAME": "Deneme S\u0131navlar\u0131",
+                "URL": "kurumsal-deneme-sinavlari\/deneme-sinavlari",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "false",
+                "CHILDREN": [
+                    {
+                        "ID": "1588",
+                        "PARENT_ID": "1587",
+                        "NAME": "Di\u011fer",
+                        "URL": "kurumsal-deneme-sinavlari\/deneme-sinavlari\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1589",
+        "PARENT_ID": "0",
+        "NAME": "Dijital Yay\u0131nlar",
+        "URL": "dijital-yayinlar",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 11,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1590",
+                "PARENT_ID": "1589",
+                "NAME": "CD-DVD-USB M\u00fczik",
+                "URL": "dijital-yayinlar\/cd-dvd-usb-muzik",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1592",
+                        "PARENT_ID": "1590",
+                        "NAME": "Dini",
+                        "URL": "dijital-yayinlar\/cd-dvd-usb-muzik\/dini",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    },
+                    {
+                        "ID": "1591",
+                        "PARENT_ID": "1590",
+                        "NAME": "Di\u011fer",
+                        "URL": "dijital-yayinlar\/cd-dvd-usb-muzik\/diger",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    },
+    {
+        "ID": "1593",
+        "PARENT_ID": "0",
+        "NAME": "Lise E\u011fitim Yay\u0131nlar\u0131",
+        "URL": "lise-egitim-yayinlari",
+        "DESCRIPTION": "",
+        "IMAGE": "",
+        "IMG1": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "IMG2": {
+            "WIDTH": 0,
+            "HEIGHT": 0,
+            "PATH": ""
+        },
+        "STATUS": 1,
+        "ORDER": 12,
+        "IS_ROOT": "true",
+        "IS_LEAF": "false",
+        "DISPLAY_IN_MOBILE": "true",
+        "CHILDREN": [
+            {
+                "ID": "1594",
+                "PARENT_ID": "1593",
+                "NAME": "Yard\u0131mc\u0131 Ders Kitab\u0131",
+                "URL": "lise-egitim-yayinlari\/yardimci-ders-kitabi",
+                "DESCRIPTION": "",
+                "IMAGE": "",
+                "IMG1": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "IMG2": {
+                    "WIDTH": 0,
+                    "HEIGHT": 0,
+                    "PATH": ""
+                },
+                "STATUS": 1,
+                "ORDER": 0,
+                "IS_ROOT": "false",
+                "IS_LEAF": "false",
+                "DISPLAY_IN_MOBILE": "true",
+                "CHILDREN": [
+                    {
+                        "ID": "1595",
+                        "PARENT_ID": "1594",
+                        "NAME": "Yaprak Test",
+                        "URL": "lise-egitim-yayinlari\/yardimci-ders-kitabi\/yaprak-test",
+                        "DESCRIPTION": "",
+                        "IMAGE": "",
+                        "IMG1": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "IMG2": {
+                            "WIDTH": 0,
+                            "HEIGHT": 0,
+                            "PATH": ""
+                        },
+                        "STATUS": 1,
+                        "ORDER": 0,
+                        "IS_ROOT": "false",
+                        "IS_LEAF": "true",
+                        "DISPLAY_IN_MOBILE": "true",
+                        "CHILDREN": [],
+                        "FIELD1": "",
+                        "FIELD99": ""
+                    }
+                ],
+                "FIELD1": "",
+                "FIELD99": ""
+            }
+        ],
+        "FIELD1": "",
+        "FIELD99": ""
+    }
+]

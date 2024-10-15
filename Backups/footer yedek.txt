@@ -1,0 +1,106 @@
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#footerMiddle h3').click(function () {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+                $(this).toggleClass('active');
+                $(this).next('div').slideToggle();
+            }
+        });
+        $('#tsoft-ecommerce-systems').remove();
+    });
+</script>
+<div id="footerTop" class="col col-12">
+    <div class="row">
+        <div class="inner">
+            <div class="box col-ml-1 musHiz footerTopOther">
+                <span>Müşteri Hizmetleri</span><br />
+                <span>
+                    <strong style="display: flex; color: #27306c">+90 212 514&nbsp;
+                            <div class="slidingVertical" style="color: #e3682a;">
+                                <span style="font-size: 27px; font-weight: bold;">28 28</span>
+                                <span>28 28</span>
+                                <span>28 28</span>
+                                <span>28 28</span>
+                            </div>
+                            <strong style="visibility: hidden;">KİTAPP</strong>
+                    </strong>
+                
+                </span>
+            </div>
+            <div class="box col-ml-1 destek footerTopOther">
+                <span>Mail Destek</span><br />
+                <span style="color: #27306c;">iletisim@damlayayinevi.com.tr</span>
+            </div>
+            <div id="social" class="col fr col-sm-12">
+                <ul>
+                    {foreach $SOCIAL_ICONS as $ICON}
+                        <li>
+                            <a href="{$ICON.URL}" rel="nofollow" data-target="blank">
+                                <img src="{$ICON.IMAGE}" alt="Sosyal Medya - {$ICON.NUMBER}" />
+                            </a>
+                        </li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footerMiddle" class="col col-12">
+    <div class="row">
+        <div class="inner">
+            {foreach $MENU as $M}
+                <div class="col col-2 col-md-4 col-sm-12">
+                    <ul class="fl col-12">
+                        <li class="col-sm-12">
+                            <h3 class="ease">{$M.NAME}</h3>
+                            <div class="fl col-12">
+                                <ul class="fl col-12">
+                                    {foreach $M.CHILDREN as $CHILD}
+                                        <li class="col-sm-12">
+                                            <a href="{$CHILD.URL}"{if $CHILD.IS_TARGET_BLANK} data-target="blank"{/if}>{$CHILD.NAME}</a>
+                                        </li>
+                                    {/foreach}
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            {/foreach}
+            <div class="col col-4 col-sm-12 newsletter">
+                <h3>{#newsletter_title#}</h3>
+                <div class="fl col-12">
+                    <p>{#newsletter_description#}</p>
+                    <div class="newsletterMain col col-12">
+                        <div class="row input-icon tooltipWrapper">
+                            <input type="text" class="sub-email" class="box" placeholder="{#enter_mail#}" />
+                            <input type="button" class="subscribe" value="ABONE OL" id="newsletterBtn" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footerBottom" class="col col-12">
+    <div class="row">
+        <div class="inner">
+            <div id="footerSecurity" class="col col-6 col-sm-12">
+                <img src="/Data/EditorFiles/site-alt-kisim/verified-by-visa.png" alt="Verified by Visa" />
+                <img src="/Data/EditorFiles/site-alt-kisim/master-secure-code.png" alt="Master SecureCODE" />
+                <img src="/Data/EditorFiles/site-alt-kisim/rapid-ssl.png" alt="Rapid SSL" />
+                <img src="/Data/EditorFiles/site-alt-kisim/chip-and-pin.png" alt="Chip & Pin" />
+            </div>
+            <div id="footerCards" class="col col-6 col-sm-12">
+                <img src="/Data/EditorFiles/site-alt-kisim/world.png" alt="World" />
+                <img src="/Data/EditorFiles/site-alt-kisim/axess.png" alt="Axess" />
+                <img src="/Data/EditorFiles/site-alt-kisim/maximum.png" alt="Maximum" />
+                <img src="/Data/EditorFiles/site-alt-kisim/bonus.png" alt="Bonus" />
+                <img src="/Data/EditorFiles/site-alt-kisim/advantage.png" alt="Advantage" />
+                <img src="/Data/EditorFiles/site-alt-kisim/paraf.png" alt="Paraf" />
+                <img src="/Data/EditorFiles/site-alt-kisim/visa.png" alt="Visa" />
+                <img src="/Data/EditorFiles/site-alt-kisim/master-card.png" alt="Master Card" />
+                <img src="/Data/EditorFiles/site-alt-kisim/paypal.png" alt="PayPal" />
+            </div>
+        </div>
+    </div>
+</div>

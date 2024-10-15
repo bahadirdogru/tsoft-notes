@@ -1,0 +1,70 @@
+<div class="col col-12">
+    <div class="row">
+        <div class="col col-12 box-border">
+            <div class="row">
+                <div class="col col-12 lightBg pageTitle">
+                    {$BLOCK_TITLE}<!-- ({#page#} {$PAGE})-->
+                </div>
+            </div>
+            <div class="row">
+                <ul class="box col-12">
+                    {if $TOTAL>0}
+                        {foreach $MESSAGE_LIST as $M}
+                            <li class="col col-12">
+                                <div class="row mb">
+                                    <div class="col col-12 box-border">
+                                        <div class="row">
+                                            <div class="box col-12 fw700 lightBg">
+                                                {$M.FULLNAME}
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="box col-12 p-bottom">
+                                                <div class="col col-12">
+                                                    <div class="row mb">
+                                                        <div class="btn btn-small btn-danger passive fw700">{#question#}</div>
+                                                    </div>
+                                                </div>
+                                                <p class="fl col-12">{$M.CONTENT}</p>
+                                                {if $M.ANSWER!=''}
+                                                    <div class="col col-12">
+                                                        <div class="row mb">
+                                                            <div class="box col-12 p-bottom line-top">
+                                                                <div class="col col-12">
+                                                                    <div class="row mb">
+                                                                        <div class="btn btn-small btn-success passive fw700">{#answer#}</div>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="fl col-12">{$M.ANSWER}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                {/if}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        {/foreach}
+                    {else}
+                        <li class="box col-12 danger">{#no_message#}</li>
+                    {/if}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box col-12">
+    <div class="box col-12 a-center info">
+        {if $TOTAL==0}
+            {#no_message#}
+        {else}
+            {#total_message#|replace:'%TOTAL%':$TOTAL}
+        {/if}
+    </div>
+    <div class="box col-12 a-center">
+        <div class="box-border productPager">
+            {$PAGINATION}
+        </div>
+    </div>
+</div>

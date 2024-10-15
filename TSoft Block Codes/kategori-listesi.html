@@ -1,0 +1,44 @@
+<div class="col col-12">
+    <div class="row mb">
+        <div class="col col-12 box-border">
+            <div class="row">
+                <div class="col col-12 p-right lightBg pageTitle">
+                    {#all_categories#}
+                </div>
+                <div class="box col-12 p-bottom">
+                    <div class="col col-12">
+                        {foreach $DATA_LIST as $D}
+                            <div class="row mb">
+                                <div class="box col-12 box-border">
+                                    <div class="row">
+                                        <div class="col col-12">
+                                            <a class="btn btn-default btn-upper" href="{$D.URL}" title="{$D.NAME} kategorisine gitmek için tıklayınız">{$D.NAME}</a>
+                                        </div>
+                                    </div>
+                                    <div class="col col-12 p-right">
+                                        <div class="row">
+                                            {foreach $D.CHILDREN as $CHILD}
+                                                <div class="box col-4 col-md-6 col-sm-6 p-left p-bottom">
+                                                    <a class="btn col-12 btn-light" href="{$CHILD.URL}" title="{$CHILD.NAME}">{$CHILD.NAME}</a>
+                                                </div>
+                                            {/foreach}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {/foreach}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col col-12">
+    {if $DISPLAY_PAGINATION}
+        <div class="box fr col-sm-12 a-center">
+            <div class="box-border productPager a-center">
+                {$PAGINATION}
+            </div>
+        </div>
+    {/if}
+</div>

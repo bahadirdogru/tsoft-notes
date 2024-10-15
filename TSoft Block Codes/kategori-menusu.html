@@ -1,0 +1,59 @@
+<link rel="stylesheet" property="stylesheet" type="text/css" href="/theme/v4-dkitap/sub_theme/blok_kategori/v4/v4/StandartMenu.css"/>
+<div class="col col-12">
+    <div class="row mb">
+        <div class="box col-12">
+            <div class="col col-12 p-left p-right">
+                <div class="row">
+                    <ul class="fl col-12 catMenu">
+                        {foreach $CATEGORIES as $CAT}
+                            <li{if $CAT.CHILDREN|@count > 0} class="parent"{/if}>
+                                <a href="{$CAT.URL}" {if $SELECTED_CATEGORY_ID==$CAT.ID}class="fw700 currentCat"{/if}>{$CAT.NAME}</a>
+                                {if $CAT.CHILDREN|@count > 0}
+                                    <ul class="box col-12 catMenu2 {if $SELECTED_CATEGORY_ID!=$CAT.ID} hideThis{/if}">
+                                        {foreach $CAT.CHILDREN as $CHILD}
+                                            <li {if $CHILD.CHILDREN|@count > 0} class="parent"{/if}>
+                                                <a href="{$CHILD.URL}" {if $SELECTED_CATEGORY_ID==$CHILD.ID}class="fw700 currentCat"{/if}>{$CHILD.NAME}</a>
+                                                {if $CHILD.CHILDREN|@count > 0}
+                                                    <ul class="box col-12 {if $SELECTED_CATEGORY_ID!=$CHILD.ID} hideThis{/if}">
+                                                        {foreach $CHILD.CHILDREN as $CHILD2}
+                                                            <li>
+                                                                <a href="{$CHILD2.URL}" {if $SELECTED_CATEGORY_ID==$CHILD2.ID}class="fw700 currentCat"{/if}>{$CHILD2.NAME}</a>
+                                                                {if $CHILD2.CHILDREN|@count > 0}
+                                                                    <ul class="box col-12 line-top line-bottom{if $SELECTED_CATEGORY_ID!=$CHILD2.ID} hideThis{/if}">
+                                                                        {foreach $CHILD2.CHILDREN as $CHILD3}
+                                                                            <li>
+                                                                                <a href="{$CHILD3.URL}" {if $SELECTED_CATEGORY_ID==$CHILD3.ID}class="fw700 currentCat"{/if}>{$CHILD3.NAME}</a>
+                                                                                {if $CHILD3.CHILDREN|@count > 0}
+                                                                                    <ul class="box col-12 line-top line-bottom{if $SELECTED_CATEGORY_ID!=$CHILD3.ID} hideThis{/if}">
+                                                                                        {foreach $CHILD3.CHILDREN as $CHILD4}
+                                                                                            <li>
+                                                                                                <a href="{$CHILD4.URL}" {if $SELECTED_CATEGORY_ID==$CHILD4.ID}class="fw700 currentCat"{/if}>{$CHILD4.NAME}</a>
+                                                                                            </li>
+                                                                                        {/foreach}
+                                                                                    </ul>
+                                                                                {/if}
+                                                                            </li>
+                                                                        {/foreach}
+                                                                    </ul>
+                                                                {/if}
+                                                            </li>
+                                                        {/foreach}
+                                                    </ul>
+                                                {/if}
+                                            </li>
+                                        {/foreach}
+                                    </ul>
+                                {/if}
+                            </li>
+                        {/foreach}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.catMenu a.currentCat').parents('ul').removeClass('hideThis');
+    });
+</script>

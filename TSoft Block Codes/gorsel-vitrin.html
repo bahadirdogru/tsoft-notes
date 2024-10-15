@@ -1,0 +1,190 @@
+{assign var="THUMBNAIL" value=$SHOWCASE.S11}
+{assign var="MOUSEWHEEL" value=$SHOWCASE.S14}
+<link rel="stylesheet" type="text/css" href="/theme/standart/js/gorsel_vitrin/owl/assets/owl.animate.css"/>
+<link rel="stylesheet" type="text/css" href="/theme/standart/js/gorsel_vitrin/owl/assets/owl.carousel.min.css"/>
+<link rel="stylesheet" type="text/css" href="/theme/standart/js/gorsel_vitrin/owl/assets/owl.theme.default.min.css"/>
+<script type="text/javascript" src="/theme/standart/js/gorsel_vitrin/owl/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/theme/standart/js/gorsel_vitrin/owl/owl.animate.js"></script>
+{if $SHOWCASE.S2 == true}
+	<script type="text/javascript" src="/theme/standart/js/gorsel_vitrin/owl/owl.autoplay.js"></script>
+{/if}
+{if $SHOWCASE.S8 == true}
+	<script type="text/javascript" src="/theme/standart/js/gorsel_vitrin/owl/owl.navigation.js"></script>
+{/if}
+{if $SHOWCASE.S10 == true}
+	<script type="text/javascript" src="/theme/standart/js/gorsel_vitrin/owl/owl.lazyload.js"></script>
+{/if}
+{if $THUMBNAIL == 'true'}
+	<script type="text/javascript" src="/theme/standart/js/gorsel_vitrin/owl/owl.thumbnail.js"></script>
+{/if}
+{if $MOUSEWHEEL == 'true'}
+	<script type="text/javascript" src="/theme/standart/js/gorsel_vitrin/owl/owl.mousewheel.min.js"></script>
+{/if}
+<script type="text/javascript">
+	$(document).ready(function(){
+		var owl = $('.owl-carousel{$BLOCK_ID}');
+		owl.on('initialize.owl.carousel initialized.owl.carousel ' +
+		'initialize.owl.carousel initialize.owl.carousel ' +
+		'resize.owl.carousel resized.owl.carousel ' +
+		'refresh.owl.carousel refreshed.owl.carousel ' +
+		'update.owl.carousel updated.owl.carousel ' +
+		'drag.owl.carousel dragged.owl.carousel ' +
+		'translate.owl.carousel translated.owl.carousel ' +
+		'to.owl.carousel changed.owl.carousel',
+		function(e){
+			$('.' + e.type).removeClass('secondary').addClass('success');
+			window.setTimeout(function() {
+				$('.' + e.type).removeClass('success').addClass('secondary');
+			}, 500);
+		});
+		owl.owlCarousel({
+            items: {$SHOWCASE.S1},
+			autoplay: {$SHOWCASE.S2},
+			autoplayTimeout: {$SHOWCASE.S3},
+			autoplayHoverPause: {$SHOWCASE.S4},
+			{if $SHOWCASE.S5 == flipInX}
+				animateIn: '{$SHOWCASE.S5}',
+				animateOut: 'slideOutDown',
+			{else if $SHOWCASE.S5 == fadeOut || $SHOWCASE.S5 == slideOutDown}
+				animateOut: '{$SHOWCASE.S5}',
+			{/if}
+			center: {$SHOWCASE.S6},
+			loop: {$SHOWCASE.S7},
+			nav: {$SHOWCASE.S8},
+        	rtl: {$SHOWCASE.S9},
+			lazyLoad: {$SHOWCASE.S10},
+			{if $THUMBNAIL == 'true'}
+				thumbs: true,
+			    thumbsPrerendered: true,
+			{/if}
+			dots: {$SHOWCASE.S13}
+      	});
+		{if $MOUSEWHEEL == 'true'}
+	      	owl.on('mousewheel', '.owl-stage', function(e){
+			    if(e.deltaY > 0){
+			        owl.trigger('next.owl');
+			    }
+			    else{
+			        owl.trigger('prev.owl');
+			    }
+			    e.preventDefault();
+			});
+	    {/if}
+	});
+</script>
+<style type="text/css">
+	.animated{
+		-webkit-animation-duration:1000 ms;
+		animation-duration:1000ms;
+		-webkit-animation-fill-mode:both;
+		animation-fill-mode:both;
+	}
+
+	.owl-animated-out{
+		z-index:1;
+	}
+
+	.owl-animated-in{
+		z-index:0;
+	}
+
+	.fadeOut{
+		-webkit-animation-name:fadeOut;
+		animation-name:fadeOut;
+	}
+
+	@-webkit-keyframes fadeOut{
+		0%{
+			opacity:1;
+		}  
+		100%{
+			opacity:0;
+		}  
+	}
+
+	@keyframes fadeOut{
+		0%{
+			opacity:1;
+		}  
+		100%{
+			opacity:0;
+		}  
+	}
+
+	.owl-theme .owl-nav{
+	    position:absolute;
+	    top:0;
+	    left:0;
+	    width:100%;
+	    height:0;
+	    margin-top:0;
+	}
+
+	.owl-theme .owl-nav [class*=owl-]{
+	    width:10px;
+	    height:30px;
+	    text-indent:-9999em;
+	    padding:0;
+	    background-color:transparent;
+	    background-image:url('/Data/EditorFiles/owl/assets/arrows.png');
+	    background-repeat:no-repeat;
+	    margin:0;
+	    overflow:hidden;
+	    cursor:pointer;
+	}
+    .owl-prev {
+        background: url(/Data/EditorFiles/leftArrow.png)no-repeat 12px center !important;
+        width: 35px !important;
+        min-height: 580px;
+    }
+    .owl-next {
+        background: url(/Data/EditorFiles/rightArrow.png)no-repeat 12px center !important;
+        width: 35px !important;
+        min-height: 580px;
+    }
+	.owl-carousel .owl-nav .owl-prev{
+		float:left;
+	}
+
+	.owl-carousel .owl-nav .owl-next{
+		float:right;
+	    background-position:right 0;
+	}
+
+	.owl-theme .owl-nav [class*=owl-]:hover{
+		background-color:transparent;
+	}
+</style>
+<div class="col col-12">
+	<div class="row mb">
+		<div class="fl col-12 owl-carousel owl-carousel{$BLOCK_ID} owl-theme"{if $THUMBNAIL == 'true'} data-slider-id="1"{/if}>
+            {foreach $IMAGE_LIST as $GORSEL}
+	            <div class="item">
+	            	<a href="{$GORSEL.LINK}" class="fl col-12">
+              			<img alt="{$GORSEL.ALT}" src="{$GORSEL.IMAGE}" class="fl col-12" />
+					</a>
+	            </div>
+            {/foreach}
+        </div>
+        {if $THUMBNAIL == 'true'}
+        	<div class="box col-12 p-right dn-xs">
+        		<div class="row">
+					<div class="fl col-12 owl-thumbs" data-slider-id="1">
+						{foreach $IMAGE_LIST as $GORSEL}
+				            <span class="col col-{12 / $SHOWCASE.S12} p-left owl-thumb-item">
+			          			<img alt="{$GORSEL.ALT}" src="{$GORSEL.THUMBNAIL}" class="fl col-12" />
+							</span>
+			            {/foreach}
+					</div>
+				</div>
+			</div>
+		{/if}
+   	</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".owl-thumbs .owl-thumb-item").mouseover(function(){
+            $(this).trigger("click");
+            });
+    })
+</script>

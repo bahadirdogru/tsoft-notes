@@ -1,0 +1,399 @@
+[
+    {
+        "ID": "17",
+        "NAME": "Kategoriler",
+        "NUMBER": "0",
+        "CHILDREN": [
+            {
+                "ID": "97",
+                "PARENT_ID": "17",
+                "NAME": "K\u00fclt\u00fcr Kitaplar\u0131",
+                "URL": "\/kultur-kitaplari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "0",
+                "STATUS": "1"
+            },
+            {
+                "ID": "89",
+                "PARENT_ID": "17",
+                "NAME": "\u00c7ocuk Edebiyat\u0131",
+                "URL": "\/cocuk-edebiyati",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "1",
+                "STATUS": "1"
+            },
+            {
+                "ID": "90",
+                "PARENT_ID": "17",
+                "NAME": "Okul \u00d6ncesi",
+                "URL": "\/okul-oncesi",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "2",
+                "STATUS": "1"
+            },
+            {
+                "ID": "91",
+                "PARENT_ID": "17",
+                "NAME": "\u0130lkokul E\u011fitim Yay\u0131nlar\u0131",
+                "URL": "\/ilkokul-egitim-yayinlari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "3",
+                "STATUS": "1"
+            },
+            {
+                "ID": "92",
+                "PARENT_ID": "17",
+                "NAME": "Dini Kitaplar",
+                "URL": "\/ortaokul-egitim-yayinlari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "4",
+                "STATUS": "1"
+            },
+            {
+                "ID": "93",
+                "PARENT_ID": "17",
+                "NAME": "Yabanc\u0131 Dil Kitaplar\u0131",
+                "URL": "\/yabanci-dil-kitaplari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "5",
+                "STATUS": "1"
+            },
+            {
+                "ID": "98",
+                "PARENT_ID": "17",
+                "NAME": "Etkinlik Kitaplar\u0131",
+                "URL": "\/etkinlik-kitaplari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "6",
+                "STATUS": "1"
+            },
+            {
+                "ID": "99",
+                "PARENT_ID": "17",
+                "NAME": "Tatil Kitaplar\u0131",
+                "URL": "\/tatil-kitaplari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "7",
+                "STATUS": "1"
+            },
+            {
+                "ID": "100",
+                "PARENT_ID": "17",
+                "NAME": "S\u00f6zl\u00fckler",
+                "URL": "\/sozlukler",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "8",
+                "STATUS": "1"
+            },
+            {
+                "ID": "101",
+                "PARENT_ID": "17",
+                "NAME": "Kurumsal Deneme S\u0131navlar\u0131",
+                "URL": "\/kurumsal-deneme-sinavlari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "9",
+                "STATUS": "1"
+            },
+            {
+                "ID": "102",
+                "PARENT_ID": "17",
+                "NAME": "Dijital Yay\u0131nlar",
+                "URL": "\/dijital-yayinlar",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "10",
+                "STATUS": "1"
+            },
+            {
+                "ID": "103",
+                "PARENT_ID": "17",
+                "NAME": "Lise E\u011fitim Yay\u0131nlari",
+                "URL": "\/lise-egitim-yayinlari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "11",
+                "STATUS": "1"
+            }
+        ]
+    },
+    {
+        "ID": "18",
+        "NAME": "\u00d6nemli Bilgiler",
+        "NUMBER": "1",
+        "CHILDREN": [
+            {
+                "ID": "70",
+                "PARENT_ID": "18",
+                "NAME": "Teslimat Ko\u015fullar\u0131",
+                "URL": "\/teslimat-kosullari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "0",
+                "STATUS": "1"
+            },
+            {
+                "ID": "71",
+                "PARENT_ID": "18",
+                "NAME": "\u00dcyelik S\u00f6zle\u015fmesi",
+                "URL": "\/uyelik-sozlesmesi",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "1",
+                "STATUS": "1"
+            },
+            {
+                "ID": "72",
+                "PARENT_ID": "18",
+                "NAME": "Sat\u0131\u015f S\u00f6zle\u015fmesi",
+                "URL": "\/satis-sozlesmesi",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "2",
+                "STATUS": "1"
+            },
+            {
+                "ID": "73",
+                "PARENT_ID": "18",
+                "NAME": "Garanti ve \u0130ade Ko\u015fullar\u0131",
+                "URL": "\/garanti-ve-iade-kosullari",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "3",
+                "STATUS": "1"
+            },
+            {
+                "ID": "74",
+                "PARENT_ID": "18",
+                "NAME": "Gizlilik ve G\u00fcvenlik",
+                "URL": "\/gizlilik-ve-guvenlik",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "4",
+                "STATUS": "1"
+            },
+            {
+                "ID": "112",
+                "PARENT_ID": "18",
+                "NAME": "KVKK Ayd\u0131nlatma Metni",
+                "URL": "\/kvkk-kisisel-verilerin-korunmasi-kanunu-aydinlatma-metni",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "5",
+                "STATUS": "1"
+            },
+            {
+                "ID": "113",
+                "PARENT_ID": "18",
+                "NAME": "\u00c7erez Politikas\u0131",
+                "URL": "\/cerezler",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "6",
+                "STATUS": "1"
+            },
+            {
+                "ID": "115",
+                "PARENT_ID": "18",
+                "NAME": "Fiyat Listesi",
+                "URL": "\/fiyat-listesi",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "8",
+                "STATUS": "1"
+            },
+            {
+                "ID": "116",
+                "PARENT_ID": "18",
+                "NAME": "Kataloglar",
+                "URL": "\/kataloglar",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "9",
+                "STATUS": "1"
+            },
+            {
+                "ID": "117",
+                "PARENT_ID": "18",
+                "NAME": "Hakk\u0131m\u0131zda",
+                "URL": "\/hakkimizda",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "10",
+                "STATUS": "1"
+            }
+        ]
+    },
+    {
+        "ID": "19",
+        "NAME": "H\u0131zl\u0131 Eri\u015fim",
+        "NUMBER": "2",
+        "CHILDREN": [
+            {
+                "ID": "76",
+                "PARENT_ID": "19",
+                "NAME": "Yeni \u00dcr\u00fcnler",
+                "URL": "\/yeni-urunler",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "1",
+                "STATUS": "1"
+            },
+            {
+                "ID": "77",
+                "PARENT_ID": "19",
+                "NAME": "\u0130ndirimdekiler",
+                "URL": "\/indirimli-urunler",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "2",
+                "STATUS": "1"
+            },
+            {
+                "ID": "78",
+                "PARENT_ID": "19",
+                "NAME": "M\u00fc\u015fteri Hizmetleri",
+                "URL": "\/musteri-hizmetleri",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "3",
+                "STATUS": "1"
+            },
+            {
+                "ID": "95",
+                "PARENT_ID": "19",
+                "NAME": "Yay\u0131nevleri Listesi",
+                "URL": "\/yayinevleri",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "4",
+                "STATUS": "1"
+            },
+            {
+                "ID": "96",
+                "PARENT_ID": "19",
+                "NAME": "Yazarlar",
+                "URL": "\/yazarlar",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "5",
+                "STATUS": "1"
+            },
+            {
+                "ID": "104",
+                "PARENT_ID": "19",
+                "NAME": "E-Damla",
+                "URL": "https:\/\/e-damla.com.tr\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "6",
+                "STATUS": "1"
+            },
+            {
+                "ID": "105",
+                "PARENT_ID": "19",
+                "NAME": "Damla S\u0131nav",
+                "URL": "https:\/\/damlasinav.com.tr\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "7",
+                "STATUS": "1"
+            },
+            {
+                "ID": "106",
+                "PARENT_ID": "19",
+                "NAME": "Minik Damla",
+                "URL": "https:\/\/minikdamla.com\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "8",
+                "STATUS": "1"
+            },
+            {
+                "ID": "107",
+                "PARENT_ID": "19",
+                "NAME": "Gen\u00e7 Damla",
+                "URL": "https:\/\/gencdamla.com\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "9",
+                "STATUS": "1"
+            },
+            {
+                "ID": "108",
+                "PARENT_ID": "19",
+                "NAME": "Mihrabad Yay\u0131nlar\u0131",
+                "URL": "https:\/\/www.mihrabadyayinlari.com\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "10",
+                "STATUS": "1"
+            },
+            {
+                "ID": "109",
+                "PARENT_ID": "19",
+                "NAME": "H\u00fcmayun Yay\u0131nlar\u0131",
+                "URL": "https:\/\/www.humayunyayinlari.com\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "11",
+                "STATUS": "1"
+            },
+            {
+                "ID": "110",
+                "PARENT_ID": "19",
+                "NAME": "Bilgili Yay\u0131nc\u0131l\u0131k",
+                "URL": "https:\/\/www.bilgiliyayincilik.com\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "12",
+                "STATUS": "1"
+            }
+        ]
+    },
+    {
+        "ID": "20",
+        "NAME": "\u00dcye",
+        "NUMBER": "3",
+        "CHILDREN": [
+            {
+                "ID": "80",
+                "PARENT_ID": "20",
+                "NAME": "Yeni \u00dcyelik",
+                "URL": "\/uye-kayit",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "0",
+                "STATUS": "1"
+            },
+            {
+                "ID": "81",
+                "PARENT_ID": "20",
+                "NAME": "\u00dcye Giri\u015fi",
+                "URL": "\/uye-girisi-sayfasi",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "1",
+                "STATUS": "1"
+            },
+            {
+                "ID": "94",
+                "PARENT_ID": "20",
+                "NAME": "Kargo Takip",
+                "URL": "\/siparis-takip",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "3",
+                "STATUS": "1"
+            },
+            {
+                "ID": "79",
+                "PARENT_ID": "20",
+                "NAME": "Sepetim",
+                "URL": "\/sepet",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "4",
+                "STATUS": "1"
+            },
+            {
+                "ID": "111",
+                "PARENT_ID": "20",
+                "NAME": "Sipari\u015flerim",
+                "URL": "\/uye-siparisleri",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "5",
+                "STATUS": "1"
+            },
+            {
+                "ID": "118",
+                "PARENT_ID": "20",
+                "NAME": "Blog",
+                "URL": "https:\/\/blog.damlayayinevi.com.tr\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "6",
+                "STATUS": "1"
+            },
+            {
+                "ID": "119",
+                "PARENT_ID": "20",
+                "NAME": "Foreign Rights",
+                "URL": "https:\/\/damlapublishing.com\/",
+                "IS_TARGET_BLANK": "0",
+                "NUMBER": "7",
+                "STATUS": "1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+<div class="col col-12">
+    <div class="row mb">
+        <div class="box col-12 box-border">
+            <div class="col col-12">
+                <div class="row mb">
+                    <div class="btn btn-default btn-medium btn-upper">
+                        {$BLOCK_TITLE}		
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {foreach $NEWS_LIST as $NEWS}
+                    <div class="box col-12 line-top">
+                        <a href="{$NEWS.URL}" target="{$TARGET}">
+                            <span class="col col-12">
+                                <span class="row mb">
+                                    {$NEWS.TITLE}</span>
+                                <span class="row">
+                                    {$NEWS.TEXT}</span>
+                            </span>
+                        </a>
+                    </div>
+                {/foreach}
+            </div>
+        </div>
+    </div>
+</div>
+{if $IS_PAGINATION_ACTIVE}
+    <div class="box col-12">
+        <div class="box col-12 a-center info">
+            {if $TOTAL==0}
+                {#no_news#}
+            {else}
+                {#total_news#|replace:'%TOTAL%':$TOTAL}
+            {/if}
+        </div>
+        <div class="box col-12 a-center">
+            <div class="box-border productPager">
+                {$PAGINATION}
+            </div>
+        </div>
+    </div>
+{/if}

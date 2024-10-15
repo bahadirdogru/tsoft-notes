@@ -1,0 +1,35 @@
+<div class="KitapYazarYayin">
+    <div class="KitapYazarBlok">
+        <form action="{$LINK}">
+            <h4><a href="{$LINK}">{#tedarikci_liste_baslik#} &raquo;</a></h4>
+            <span><input name="search" type="text" value="{$SEARCH_WORD}" /></span>
+            <span><input class="GenelButon" type="submit" value="{#search#}"/></span>
+        </form>
+        <div class="atla"></div>
+        <div class="Harf">
+            <a href="{$LINK}" style="width:35px;">{#all#}</a>
+            {for $x=0;$x<count($LETTERS);$x++}<a href="{$LINK}?letter={$LETTERS.$x}">{$LETTERS.$x}</a>{/for}
+            <a href="{$LINK}?letter=0">0-9</a>
+        </div>
+
+        <div class="atla"></div>
+
+        <h4>{#search_result#}</h4>
+
+        <div class="Listele" style="text-align: center;">
+            {foreach $DATA_LIST as $D}
+                <a href="{$D.URL}" style="weight:bold;text-color:red;"><img id="{$D.USER_ID}" src="{$D.LOGO}" width="190" height="100"/><br />{$D.NAME}</a>
+            {foreachelse}{#no_result#}{/foreach}
+    </div>
+</div>
+</div>
+
+<div class="col col-12">
+    {if $DISPLAY_PAGINATION}
+        <div class="box fr col-sm-12 a-center">
+            <div class="box-border productPager a-center">
+                {$PAGINATION}
+            </div>
+        </div>
+    {/if}
+</div>

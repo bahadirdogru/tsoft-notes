@@ -1,0 +1,161 @@
+{if $HEADER==1}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#list-slide{$BLOCK_ID}').slide({
+                slideType: 'carousel',
+                slideCtrl: {
+                    showCtrl: true,
+                    wrapCtrl: '#productCampaign-left',
+                    nextBtn: '#nextCampaign-left',
+                    prevBtn: '#prevCampaign-left'
+                }
+            });
+            $('.timer-block').each(function(i,el){
+                var dateParse = el.dataset.date.split(',');
+                convertDate = new Date(dateParse[0] + '-' + dateParse[1] + '-' + dateParse[2] + ' ' + dateParse[3] + ':' + dateParse[4] + ':' + dateParse[5]);
+                GetCount(convertDate, el.id);
+            });
+        });
+    </script>
+    <div class="col col-12">
+        <div id="campaign-products-left{$BLOCK_ID}" class="row mb box-border">
+            <div class="box col-12">
+                <div class="col col-12 btn-upper col-title">{$BLOCK_TITLE}</div>
+                <div class="box col-12">
+                    <div class="row">
+                        <div>
+                            <ul id="list-slide{$BLOCK_ID}" class="notClear">
+                            {/if}
+                            {if $LOOP==1}
+                                <li class="fl col-12 col-sm-6 productColItem">         
+                                    <a href="/?B=Firsat&Uid={$P.ID}" class="image-wrapper fl{if $P.IMAGE_LIST.1.SMALL != ''} imgGallery{/if}">                           
+                                        {if $P.DISCOUNT_PERCENT > 0 && $P.IS_DISPLAY_DISCOUNTED_ACTIVE == 1}       
+                                            <div class="productDiscount"><span>%{$P.DISCOUNT_PERCENT}</span>{#discounted#}</div>         
+                                        {/if}
+                                        {if $P.IS_NEW_PRODUCT == true}  
+                                            <span class="icon-new" data-text="{#new#}"></span>
+                                        {/if}      
+                                        {if $P.IN_STOCK == false}
+                                            <span class="out-of-stock">{#out_of_stock#}</span>
+                                        {/if}                  
+                                        <!--{if {$P.PRICE_SELL / 1} > 100}         
+                                            <span class="icon-cargo"></span>             
+                                    {/if}-->
+                                    <span class="imgInner">
+                                        <img {if $IS_LAZY_LOAD_ACTIVE == '1'}data-src="{$P.IMAGE.SMALL}" src="{$LAZY_LOAD_LOADING_IMAGE}" class="lazy" {else}src="{$P.IMAGE.SMALL}" class="active" {/if}alt="{$P.BRAND} - {$P.TITLE}" title="{$P.BRAND} - {$P.TITLE}" />
+                                    </span>
+                                    {if $P.IMAGE_LIST.1.SMALL != ''}
+                                        <span class="imgInner">
+                                            <img {if $IS_LAZY_LOAD_ACTIVE == '1'}data-src="{$P.IMAGE_LIST.1.SMALL}" src="{$LAZY_LOAD_LOADING_IMAGE}" class="ease ndImage lazy" {else}src="{$P.IMAGE_LIST.1.SMALL}" class="ease ndImage" {/if} alt="{$P.BRAND} - {$P.TITLE} (1)" title="{$P.BRAND} - {$P.TITLE} (1)" />
+                                        </span>
+                                    {/if}
+                                    <span id="side-counter-{$P.ID}" data-date="{$P.DEAL_END_DATE|date_format:'Y,m,d,H,i,s'}" class="col col-12 image-band campaign-band timer-block"></span>                   
+                                </a>                     
+                                <div class="box col-12 p-bottom loaderWrapper">      
+                                    <div class="row">              
+                                        <div class="box col-12">              
+                                            <div class="row">             
+                                                {if $DISPLAY_BRAND == 1}
+                                                    <a href="/{$P.BRAND_URL}" title="{$P.BRAND} {$P.TITLE}" class="col col-12 productBrand">{$P.BRAND}</a>
+                                                {/if}              
+                                                <a href="/?B=Firsat&Uid={$P.ID}" title="{$P.TITLE}" class="col col-12 productDescription">{$P.TITLE}</a>     
+                                            </div>             
+                                        </div>
+                                        {if $P.IS_DISPLAY_PRODUCT == 0}
+                                            <div class="variantOverlay" data-id="{$P.ID}{$BLOCK_ID}"></div>
+                                            <div class="fl col-12 variantWrapper tooltipWrapper">
+                                                <input type="hidden" name="subPro{$P.ID}{$BLOCK_ID}" id="subPro{$P.ID}{$BLOCK_ID}" value="0" />    
+                                                {if $P.HAS_VARIANT == true}
+                                                    <textarea id="json{$P.ID}{$BLOCK_ID}" style="display:none;">{$P.VARIANT_DATA}</textarea>
+                                                    {if $P.VARIANT_FEATURE1_LIST|@count > 0}
+                                                        <div class="box col-12 productOption">
+                                                            <span>{#color#} :
+                                                            </span>
+                                                            <div class="optionBox fr subProWrapper subOne" data-order="1">
+                                                                {foreach $P.VARIANT_FEATURE1_LIST as $A1}
+                                                                    {if $A1.IN_STOCK == true}
+                                                                        <a data-id="{$A1.TYPE_ID}" data-target="{$P.ID}{$BLOCK_ID}">
+                                                                            <p>{$A1.TYPE}</p>
+                                                                        </a>
+                                                                    {/if}
+                                                                {/foreach}
+                                                            </div>
+                                                        </div>
+                                                    {/if}
+                                                    {if $P.VARIANT_FEATURE2_LIST|@count > 0}
+                                                        <div class="box col-12 productOption">
+                                                            <span>{#size#} :
+                                                            </span>
+                                                            <div class="optionBox fr subProWrapper subTwo" data-order="2">
+                                                                <select name="subPro{$P.ID}">
+                                                                    <option value="" data-id="" data-target="{$P.ID}{$BLOCK_ID}">
+                                                                        {#select#}...
+                                                                    </option>
+                                                                    {foreach $P.VARIANT_FEATURE2_LIST as $A2}
+                                                                        {if $A2.IN_STOCK == true}
+                                                                            <option value="{$A2.TYPE_ID}" data-id="{$A2.TYPE_ID}" data-target="{$P.ID}{$BLOCK_ID}">
+                                                                                {$A2.TYPE}
+                                                                            </option>
+                                                                        {/if}
+                                                                    {/foreach}
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    {/if}
+                                                {/if}                                       
+                                            </div>
+                                            <div class="box col-12 p-bottom">       
+                                                <div class="row tooltipWrapper">      
+                                                    <div class="fl dn-xs">
+                                                        <input type="hidden" id="Adet{$P.ID}{$BLOCK_ID}" name="Adet{$P.ID}{$BLOCK_ID}" value="{$P.MIN_ORDER_COUNT|default:1}" />
+                                                        {if $DISPLAY_CART_BUTTON == 1}
+                                                            <a onclick="Add2Cart({$P.ID}, $('#subPro{$P.ID}{$BLOCK_ID}').val(), $('#Adet{$P.ID}{$BLOCK_ID}').val());" class="productBtn fl basketBtn" data-parent="{$P.ID}{$BLOCK_ID}"></a>
+                                                        {/if}
+                                                        {if $DISPLAY_FAVOURITE_BUTTON == 1}
+                                                            {if $IS_MEMBER_LOGGED_IN != true}
+                                                                {if $IS_HTTPS_ACTIVE == 1}
+                                                                    <a data-width="500" data-url="/srv/service/customer/login-form" class="popupWin productBtn fl favouriteBtn loginPopupBtn"></a>
+                                                                {else}
+                                                                    <a href="{$PAGE_LINK.MEMBER_LOGIN}" class="productBtn fl favouriteBtn loginPopupBtn"></a>
+                                                                {/if}
+                                                            {else}
+                                                                <a data-width="700" data-url="/srv/service/content/get/1014/popup/{$P.ID}-{$P.VARIANT_ID}" class="popupWin productBtn fl favouriteBtn"></a>
+                                                            {/if}
+                                                        {/if}     
+                                                    </div>         
+                                                    <div class="productPrice fr">              
+                                                        <div class="priceWrapper">                            
+                                                            {if $P.DISCOUNT_PERCENT > 0 && $P.IS_DISPLAY_DISCOUNTED_ACTIVE == 1}                          
+                                                                <div class="discountedPrice">{vat price=$P.PRICE_NOT_DISCOUNTED vat=$P.VAT} {$P.TARGET_CURRENCY}</div>             
+                                                            {/if}                                           
+                                                            <div class="currentPrice">
+                                                                {if $P.DISPLAY_VAT === "1"}
+                                                                    {vat price=$P.PRICE_SELL vat=$P.VAT}
+                                                                    {$P.TARGET_CURRENCY}
+                                                                {else} 
+                                                                    {format price=$P.PRICE_SELL} {$P.TARGET_CURRENCY}
+                                                                    + {#kdv#}
+                                                                {/if}
+                                                            </div>     
+                                                        </div>                      
+                                                    </div>              
+                                                </div>                  
+                                            </div>
+                                        {/if}
+                                        </div>         
+                                    </div>            
+                                </li>
+                            {/if}
+                            {if $FOOTER==1}
+                            </ul>
+                        </div>
+                        <div class="colControl" id="productCampaign-left">
+                            <span id="prevCampaign-left" class="fl colPrev"></span>
+                            <span id="nextCampaign-left" class="fr colNext"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{/if}

@@ -1,0 +1,205 @@
+<div class="col col-12">
+    <div class="row mb">
+        <div class="col col-12 whiteBg box-border line-light">
+            <div class="col col-12">
+                <div class="row a-center pageTitle">
+                    {$BLOCK_TITLE}
+                </div>
+            </div>
+            <div class="row">
+                <div class="box col-12">
+                    <div class="fl col-12 middleItem">
+                        <div class="fl col-12 lightBg dn-xs">
+                            <div class="box col-2 line-right dn-xs">
+                                Tür
+                            </div>
+                            <div class="box col-5 line-right">
+                                Ürün Adı
+                            </div>
+                            <div class="box col-3 line-right">
+                                Adet / Fiyat
+                            </div>
+                            <div class="box col-2 no-print" align="right">
+                                Detay
+                            </div>
+                        </div>
+                        {foreach $CATEGORIES as $CAT}
+                            <div class="fl col-12 line-bottom line-light productRow">
+                                <div class="box col-2 productImg">
+                                    {$CAT.NAME}
+                                </div>
+                                <div class="col col-5 form medium productInfoRow">
+                                    <select name="i-am-hero" class="col col-9 col-sm-12" id="parca-{$CAT.ID}" data-pro-id="{$CAT.ID}">
+                                        <option value="" data-price="">[Seçiniz..]</option>
+                                        {foreach $CAT.PRODUCTS as $P}
+                                            <option value="{$P.ID}" data-price="{$P.PRICE_SELL}" data-vat="{$P.VAT}" data-url="{$P.URL}">{$P.TITLE}</option>
+                                        {/foreach}
+                                    </select>
+                                </div>
+                                <div class="fl col-3 productPrcRow">
+                                    <div class="fl qtyBtns col-md-12 btn-radius" data-increment="1">
+                                        <a title="-" data-id="{$CAT.ID}" data-callback="qtyChange" class="col-md-4 col-sm-12 decBasketProduct">
+                                            <p></p>
+                                        </a>
+                                        <input type="text" id="Adet{$CAT.ID}" name="Adet{$CAT.ID}" value="1" class="col-md-4 col-sm-12 qty">
+                                        <a title="+" data-id="{$CAT.ID}" data-callback="qtyChange" class="col-md-4 col-sm-12 incBasketProduct">
+                                            <p></p>
+                                        </a>
+                                    </div>
+                                    <div class="btn product-price" data-id="{$CAT.ID}"></div>
+                                </div>
+                                <div class="box col-2 dn-sm no-print">
+                                    <a target="_blank" class="btn fr btn-default btn-radius product-detail">İncele</a>
+                                </div>
+                            </div>
+                        {/foreach}
+                        <div class="box col-12">
+                            <div class="row">
+                                <div class="fl col-9 col-md-6 col-sm-12 p-right no-print">
+                                    <div class="box col-sm-12 p-top p-left">
+                                        <a href="#" id="alisveris-tamamla" class="btn btn-default btn-radius col-sm-12">Alışverişi Tamamla</a>
+                                    </div>
+                                    <div class="box col-sm-12 p-top p-left">
+                                        {if $IS_MEMBER_LOGGED_IN != true}
+                                            <a data-width="500" data-url="/srv/service/customer/login-form" class="popupWin btn btn-default btn-radius col-sm-12">Alış-veriş Listeme Ekle</a>{#add_to_shopping_list#}</a>
+                                        {else}
+                                            <a href="#" id="alisveris-listeme-ekle" class="btn btn-default btn-radius col-sm-12">Alış-veriş Listeme Ekle</a>
+                                        {/if}
+                                    </div>
+                                    <div class="box col-sm-12 p-top p-left">
+                                        <a href="#" id="parca-sayfa-yazdir" class="btn btn-default btn-radius col-sm-12">Listeyi Yazdır</a>
+                                    </div>
+                                </div>
+                                <div class="col fr col-3 col-md-6 col-sm-12">
+                                    <div class="row">
+                                        <div class="col col-12">
+                                            <div class="row box-border">
+                                                <div class="box col-6 line-right">
+                                                    Toplam
+                                                </div>
+                                                <div class="box col-6 a-right" id="total-price" data-currency="{$CURRENCY}">
+                                                    0,00 {$CURRENCY}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css" media="print">
+    #header,
+    #leftColumn,
+    #rightColumn,
+    .no-print,
+    .productRow.no-print,
+    #footer{
+        display:none;
+    }
+</style>
+{literal}
+    <script type="text/javascript">
+        $('#alisveris-listeme-ekle').click(function () {
+            var arr = [];
+            var i = 0;
+            $('[name="i-am-hero"]').each(function (i) {
+                if (parseInt($(this).val()) > 0) {
+                    arr[i] = $(this).val() + "-0";
+                    i++;
+                }
+            });
+            if (arr.length < 1) {
+                Message.debug("Eklenecek ürün bulunamadı", 400);
+            } else {
+                $.get("/srv/service/content/get/1014/popup/" + arr.join(','), function (msg) {
+                    Message.showDialog(msg, 700);
+                });
+            }
+            return false;
+        });
+        $('#parca-sayfa-yazdir').click(function () {
+            $('.productRow').each(function () {
+                var comp = $(this).find('input[name="i-am-hero"]');
+                var id = comp.val();
+                if (id == '') {
+                    $(this).addClass('no-print');
+                }
+                else {
+                    $(this).removeClass('no-print');
+                }
+            });
+            window.print();
+            return false;
+        });
+        $('#alisveris-tamamla').click(function () {
+            var idArr = new Array();
+            var adetArr = new Array();
+            var k = 0;
+            $('[name="i-am-hero"]').each(function (i) {
+                var urunId = parseInt($(this).val());
+                if (urunId > 0) {
+                    idArr[k] = urunId;
+                    var parcaId = $(this).attr('data-pro-id');
+                    adetArr[k] = $('#Adet' + parcaId).val();
+                    k++;
+                }
+            });
+            Add2Cart({
+                productId : idArr,
+                quantity : adetArr
+            });
+            return false;
+        });
+        var totalPrice = 0;
+        $('[name="i-am-hero"]').on('change', function(){
+            var currentOpt = $(this).find('option:selected');
+            var currentID = $(this).attr('data-pro-id');
+            var proPrice = vat(currentOpt.attr('data-price'), currentOpt.attr('data-vat')) * $('#Adet' + currentID).val();
+            var priceWrapper = $('.product-price[data-id="' + currentID + '"]');
+            $(this).closest('.productRow').attr({
+                'data-total-price': vat(currentOpt.attr('data-price'), currentOpt.attr('data-vat')),
+                'data-vat': currentOpt.attr('data-vat')
+            });
+            if(currentOpt.val() != ''){
+                $(this).closest('.productRow').addClass('enable');
+                $(this).closest('.productRow').find('.product-detail').attr('href', currentOpt.attr('data-url'));
+                priceWrapper.html(format(proPrice) + ' ' + $('#total-price').attr('data-currency'));
+            }
+            else{
+                $(this).closest('.productRow').removeClass('enable');
+                $(this).closest('.productRow').find('.product-detail').removeAttr('href');
+                priceWrapper.empty();
+            }
+            $('.productRow').each(function(i, e){
+                if($(e).hasClass('enable')){
+                    totalPrice += parseFloat($(e).attr('data-total-price') * $(e).find('input').val());
+                }
+            });
+            $('#total-price').html(format(totalPrice) + ' ' + $('#total-price').attr('data-currency'));
+            totalPrice = 0;
+        });
+        function qtyChange(qtyId, qty){
+            var currentOpt = $('[name="i-am-hero"][data-pro-id="' + qtyId + '"]').find('option:selected');
+            var proPrice = vat(currentOpt.attr('data-price'), currentOpt.attr('data-vat')) * qty;
+            $('.product-price[data-id="' + qtyId + '"]').html(format(proPrice) + ' ' + $('#total-price').attr('data-currency'));
+            $('.productRow').each(function(i, e){
+                if($(e).hasClass('enable')){
+                    totalPrice += parseFloat($(e).attr('data-total-price') * $(e).find('input').val());
+                }
+            });
+            $('#total-price').html(format(totalPrice) + ' ' + $('#total-price').attr('data-currency'));
+            totalPrice = 0;
+        }
+        function vat(p, vat){
+            var priceParam = isNaN(p) ? 0.0 : parseFloat(p);
+            var vatParam = isNaN(vat) > 0 ? 0 : parseInt(vat);
+            priceParam = priceParam * (100 + vatParam) / 100;
+            return priceParam;
+        }
+    </script>
+{/literal}

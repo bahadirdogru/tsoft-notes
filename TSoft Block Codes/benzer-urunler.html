@@ -1,0 +1,83 @@
+{if $HEADER == 1}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#list-catalog{$BLOCK_ID}').equalizer();
+        });
+    </script>
+    <div class="col col-12" id="list-catalog{$BLOCK_ID}">
+        <div class="row mb">
+            <div class="box col-12 vitTitleWrap">
+                <div class="vitTitle fl">{$BLOCK_TITLE}</div>
+            </div>
+            <div class="col col-12 catalogWrapper" id="list-slide{$BLOCK_ID}">
+                <div class="row">
+                {/if}
+                {if $LOOP == 1}
+                <input type="hidden" class="myProductList" value="{$P.ID}"/>
+                <div class="col col-3 col-sm-{12 / $ROW_PRODUCT_COUNT_SM} col-xs-{12 / $ROW_PRODUCT_COUNT_XS} ease productItem">
+                    <div class="row">
+                        <a href="/{$P.URL}" class="image-wrapper fl{if $P.IMAGE_LIST.1.SMALL != ''} imgGallery{/if}">
+                            <span class="imgInner">
+                                <img {if $IS_LAZY_LOAD_ACTIVE == '1'}data-src="{$P.IMAGE.SMALL}" src="{$LAZY_LOAD_LOADING_IMAGE}" class="lazy" {else}src="{$P.IMAGE.SMALL}" class="active" {/if}alt="{$P.BRAND} - {$P.TITLE}" title="{$P.BRAND} - {$P.TITLE}" />
+                            </span>
+                            {if $P.IMAGE_LIST.1.SMALL != ''}
+                                <span class="imgInner">
+                                    <img {if $IS_LAZY_LOAD_ACTIVE == '1'}data-src="{$P.IMAGE_LIST.1.SMALL}" src="{$LAZY_LOAD_LOADING_IMAGE}" class="ease ndImage lazy" {else}src="{$P.IMAGE_LIST.1.SMALL}" class="ease ndImage" {/if} alt="{$P.BRAND} - {$P.TITLE} (1)" title="{$P.BRAND} - {$P.TITLE} (1)" />
+                                </span>
+                            {/if}
+                        </a>
+                        <div class="box col-12 productDetails loaderWrapper">
+                            <div class="row">
+                                <div class="box col-12">
+                                    <div class="row">
+                                        <a href="/{$P.URL}" title="{$P.TITLE}" class="col col-12 productDescription">{$P.TITLE}</a>
+                                    </div>
+                                </div>
+                                <div class="box col-12">
+                                    <span class="col col-12 productBrand">
+                                        {if $DISPLAY_BRAND == 1}
+                                            <a href="/{$P.BRAND_URL}" title="{$P.BRAND} {$P.TITLE}" class="col col-12 productBrand">{$P.BRAND}</a>
+                                        {/if}
+                                    </span>
+                                    <div class="fl col-12 productComment">
+                                        <div class="stars">
+                                            <div class="fl stars-inner" style="width:{$P.COMMENT_RANK}%;"></div>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <div class="box col-12">
+                                    <div class="fl col-12 tooltipWrapper">
+                                        <div class="productPrice col-12 fl">
+                                            {if $P.DISCOUNT_PERCENT > 0 && $P.IS_DISPLAY_DISCOUNTED_ACTIVE == 1}
+                                                <div class="fl productDiscount">%{$P.DISCOUNT_PERCENT}</div>
+                                            {/if}
+                                            <div class="priceWrapper">
+                                                <div class="currentPrice {if $P.DISCOUNT_PERCENT > 0}currentPrice2{/if}">
+                                                    {vat price=$P.PRICE_SELL vat=$P.VAT} {$P.TARGET_CURRENCY}
+                                                </div>
+                                                {if $P.DISCOUNT_PERCENT > 0 && $P.IS_DISPLAY_DISCOUNTED_ACTIVE == 1}
+                                                    <div class="discountedPrice">
+                                                        {vat price=$P.PRICE_NOT_DISCOUNTED vat=$P.VAT} {$P.TARGET_CURRENCY}
+                                                    </div>
+                                                {/if}
+                                            </div>
+                                        </div>
+                                        <div class="fl col-12 dn-xs">
+                                            <input type="hidden" id="Adet{$P.ID}{$BLOCK_ID}" name="Adet{$P.ID}{$BLOCK_ID}" value="{$P.MIN_ORDER_COUNT|default:1}" />
+                                            {if $DISPLAY_CART_BUTTON == 1}
+                                                <a onclick="Add2Cart({$P.ID}, $('#subPro{$P.ID}{$BLOCK_ID}').val(), $('#Adet{$P.ID}{$BLOCK_ID}').val());" class="fl col-12 basketBtn2" data-parent="{$P.ID}{$BLOCK_ID}">Sepete Ekle</a>
+                                            {/if}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/if}
+                {if $FOOTER == 1}
+                </div>
+            </div>
+        </div>
+    </div>
+{/if}

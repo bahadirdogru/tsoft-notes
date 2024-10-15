@@ -1,0 +1,417 @@
+{if $HEADER==1}
+
+<div class="fl col-12 home-vitrin" id="tab-vitrin-{$BLOCK_ID}">
+
+  {if $TAB_LIST|@count > 1}
+
+  <div class="fl col-12 mt">
+
+    <div class="vitTitle pos-r with-border border-limited border-custom-pink text-bold block-title mb">
+
+      <div class="btn vitTitle">{$BLOCK_TITLE}</div>
+
+    </div>
+
+  </div>
+
+  <div class="pos-r fl col-12 mt mb">
+
+    <div class="col">
+
+      <div class="row tabBtns">
+
+        {foreach $TAB_LIST as $T}
+
+        <div class="col p-left">
+
+          <div class="btn btn-custom-gray btn-small{if $T.SELECTED==1} active{/if}" data-id="{$T.ID}">{$T.TITLE}</div>
+
+        </div>
+
+        {/foreach}
+
+      </div>
+
+    </div>
+
+    {if $DISPLAY_COMPARISON_BUTTON == 1}
+
+    <a class="compare pos-a pos-top pos-right col-sm-12 a-center btn btn-small btn-custom-pink text-description text-regular pr pl p-top p-bottom" id="productComparison{$BLOCK_ID}">
+
+      <i class="icon-comparison"></i>
+
+      {#compare_selected#}
+
+    </a>
+
+    {/if}
+
+  </div>
+
+  {else}
+
+  <div class="fl col-12 mt mb">
+
+    <div class="pos-r with-border border-limited border-custom-pink text-bold text-center block-title mb">
+
+      <div class="btn">{$BLOCK_TITLE}</div>
+
+      {if $DISPLAY_COMPARISON_BUTTON == 1}
+
+      <a class="compare pos-a pos-top pos-right col-sm-12 a-center btn btn-small btn-custom-pink text-description text-regular pr pl p-top p-bottom" id="productComparison{$BLOCK_ID}">
+
+        <i class="icon-comparison"></i>
+
+        {#compare_selected#}
+
+      </a>
+
+      {/if}
+
+    </div>
+
+  </div>
+
+  {/if}
+
+  <div class="col col-12{if $TAB_LIST|@count > 1} showcaseWrap{/if}" data-parent="{$BLOCK_ID}">
+
+    <div class="row mb catalogWrapper">
+
+      {if $TAB_LIST|@count > 1}
+
+      <div class="col col-12 showcase" id="tab-{$TAB_LIST[0].ID}">
+
+        <div class="row">
+
+          <div class="fl col-12">
+
+            <ul class="fl col-12 notClear" id="list-slide{$BLOCK_ID}{$TAB_LIST[0].ID}">
+
+              {else}
+
+              <div class="fl col-12"> 
+
+                <ul class="fl col-12 notClear" id="list-slide{$BLOCK_ID}">   
+
+                  {/if}
+
+                  {/if}
+
+                  {if $LOOP==1}
+
+                  <li class="fl col-2 col-md-3 col-sm-6 col-xs-6 ease">
+
+                    <div class="col col-12 productItem">
+
+                      <input type="hidden" class="myProductList" value="{$P.ID}"/>
+
+                      <div class="row">
+
+                        <a href="/{$P.URL}" class="image-wrapper fl{if $P.IMAGE_LIST.1.SMALL != ''} imgGallery{/if}">
+
+                          <span class="imgInner">
+
+                            <img {if $IS_LAZY_LOAD_ACTIVE == '1'}data-src="{$P.IMAGE.SMALL}" src="{$LAZY_LOAD_LOADING_IMAGE}" class="lazy" {else}src="{$P.IMAGE.SMALL}" class="active" {/if}alt="{$P.BRAND} - {$P.TITLE}" title="{$P.BRAND} - {$P.TITLE}" />
+
+                          </span>
+
+                          {if $P.IMAGE_LIST.1.SMALL != ''}
+
+                          <span class="imgInner">
+
+                            <img {if $IS_LAZY_LOAD_ACTIVE == '1'}data-src="{$P.IMAGE_LIST.1.SMALL}" src="{$LAZY_LOAD_LOADING_IMAGE}" class="ease ndImage lazy" {else}src="{$P.IMAGE_LIST.1.SMALL}" class="ease ndImage" {/if} alt="{$P.BRAND} - {$P.TITLE} (1)" title="{$P.BRAND} - {$P.TITLE} (1)" />
+
+                          </span>
+
+                          {/if}
+
+                        </a>
+
+                        <div class="box col-12 productDetails loaderWrapper">
+
+                          <div class="row">
+
+                            <div class="box col-12">
+
+                              <div class="row">
+
+                                <a href="/{$P.URL}" title="{$P.TITLE}" class="col col-12 productDescription">{$P.TITLE}</a>
+
+                              </div>
+
+                            </div>
+
+                            <div class="box col-12">
+
+                              <span class="col col-12 productBrand">
+
+                                {if $DISPLAY_BRAND == 1}
+
+                                <a href="/{$P.BRAND_URL}" title="{$P.BRAND} {$P.TITLE}" class="col col-12 productBrand">{$P.BRAND}</a>
+
+                                {/if}
+
+                              </span>
+
+                              <div class="fl col-12 productComment">
+
+                                <div class="stars">
+
+                                  <div class="fl stars-inner" style="width:{$P.COMMENT_RANK}%;"></div>
+
+                                </div>
+
+                              </div>
+
+                            </div>  
+
+                            <div class="box col-12">
+
+                              <div class="fl col-12 tooltipWrapper">
+
+                                <div class="productPrice col-12 fl">
+
+                                  {if $P.DISCOUNT_PERCENT > 0 && $P.IS_DISPLAY_DISCOUNTED_ACTIVE == 1}
+
+                                  <div class="fl productDiscount">%{$P.DISCOUNT_PERCENT}</div>
+
+                                  {/if}
+
+                                  <div class="priceWrapper">
+
+                                    <div class="currentPrice {if $P.DISCOUNT_PERCENT > 0}currentPrice2{/if}">
+
+                                      {vat price=$P.PRICE_SELL vat=$P.VAT} {$P.TARGET_CURRENCY}
+
+                                    </div>
+
+                                    {if $P.DISCOUNT_PERCENT > 0 && $P.IS_DISPLAY_DISCOUNTED_ACTIVE == 1}
+
+                                    <div class="discountedPrice">
+
+                                      {vat price=$P.PRICE_NOT_DISCOUNTED vat=$P.VAT} {$P.TARGET_CURRENCY}
+
+                                    </div>
+
+                                    {/if}
+
+                                  </div>
+
+                                </div>
+
+                                <div class="fl col-12 dn-xs">
+
+                                  <input type="hidden" id="Adet{$P.ID}{$BLOCK_ID}" name="Adet{$P.ID}{$BLOCK_ID}" value="{$P.MIN_ORDER_COUNT|default:1}" />
+
+                                  {if $DISPLAY_CART_BUTTON == 1}
+
+                                  <a onclick="Add2Cart({$P.ID}, $('#subPro{$P.ID}{$BLOCK_ID}').val(), $('#Adet{$P.ID}{$BLOCK_ID}').val());" class="fl col-12 basketBtn2" data-parent="{$P.ID}{$BLOCK_ID}">Sepete Ekle</a>
+
+                                  {/if}
+
+                                </div>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </li>
+
+                    {/if}
+
+                    {if $FOOTER==1}
+
+                    {if $TAB_LIST|@count > 1}
+
+                  </ul>
+
+                </div>
+
+                <div class="col slideControl" id="productControl{$BLOCK_ID}{$TAB_LIST[0].ID}">
+
+                  <div class="row">
+
+                    <span id="prevProduct{$BLOCK_ID}{$TAB_LIST[0].ID}" class="fl colPrev icon-arrow-left icon-no-space icon-custom-gray"></span>       
+
+                    <span id="nextProduct{$BLOCK_ID}{$TAB_LIST[0].ID}" class="fr colNext icon-arrow-right icon-no-space icon-custom-gray"></span>       
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            {else}
+
+          </ul>
+
+        </div>
+
+        <div class="col slideControl" id="productControl{$BLOCK_ID}">
+
+            <span id="prevProduct{$BLOCK_ID}" class="fl colPrev icon-arrow-left icon-no-space icon-custom-gray"></span>
+
+            <span id="nextProduct{$BLOCK_ID}" class="fr colNext icon-arrow-right icon-no-space icon-custom-gray"></span>
+
+        </div>
+
+        {/if}
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){       
+
+      $('#tab-vitrin-{$BLOCK_ID}').equalizer();   
+
+      {if $TAB_LIST|@count > 1}        
+
+      $('#tab-vitrin-{$BLOCK_ID} #tab-{$TAB_LIST[0].ID}').addClass('current');    
+
+      $('#tab-vitrin-{$BLOCK_ID} .btn[data-id="{$TAB_LIST[0].ID}"]').addClass('active');      
+
+      $('#list-slide{$BLOCK_ID}{$TAB_LIST[0].ID}').slide({ 
+
+        slideType : 'carousel',         
+
+        slideCtrl : {           
+
+          showCtrl: true, 
+
+          wrapCtrl: '#productControl{$BLOCK_ID}{$TAB_LIST[0].ID}',    
+
+          nextBtn: '#nextProduct{$BLOCK_ID}{$TAB_LIST[0].ID}',    
+
+          prevBtn: '#prevProduct{$BLOCK_ID}{$TAB_LIST[0].ID}'     
+
+        }   
+
+      }); 
+
+      {else} 
+
+      $('#list-slide{$BLOCK_ID}').slide({  
+
+        slideType : 'carousel', 
+
+        slideCtrl : {           
+
+          showCtrl: true,     
+
+          wrapCtrl: '#productControl{$BLOCK_ID}', 
+
+          nextBtn: '#nextProduct{$BLOCK_ID}',     
+
+          prevBtn: '#prevProduct{$BLOCK_ID}'      
+
+        }       
+
+      }); 
+
+      {/if}   
+
+    }); 
+
+    {if $TAB_LIST|@count > 1}       
+
+    $('#tab-vitrin-{$BLOCK_ID} .tabBtns .btn').click(function(){        
+
+      if(!$(this).hasClass('active')){        
+
+        $('#tab-vitrin-{$BLOCK_ID} .showcase.current').removeClass('current');  
+
+        $('#tab-vitrin-{$BLOCK_ID} .active').removeClass('active');     
+
+        var btnId = $(this).attr('data-id');        
+
+        $.ajax({            
+
+          url:'/srv/service/showcase/tab/{$BLOCK_ID}/'+ btnId,    
+
+          success: function(tabContent){          
+
+            if($('.showcaseWrap[data-parent="{$BLOCK_ID}"] #tab-' + btnId).length < 1){     
+
+              tabContent =    '<div class="col col-12 showcase" id="tab-' + btnId + '">' +    
+
+                '<div class="row">' +
+
+                  '<ul class="fl col-12 notClear" id="list-slide{$BLOCK_ID}' + btnId + '">' +
+
+                    tabContent +
+
+                    '</ul>' +
+
+                    '</div>' +
+
+                    '<div class="col slideControl" id="productControl{$BLOCK_ID}' + btnId + '">' +
+
+                      '<div class="row">' +
+
+                        '<span id="prevProduct{$BLOCK_ID}' + btnId + '" class="fl colPrev icon-arrow-left icon-no-space icon-custom-gray"></span>' +
+
+                        '<span id="nextProduct{$BLOCK_ID}' + btnId + '" class="fr colPrev icon-arrow-right icon-no-space icon-custom-gray"></span>' +
+
+                        '</div>' +
+
+                        '</div>' +
+
+                        '</div>';
+
+                        $('.showcaseWrap[data-parent="{$BLOCK_ID}"] > .row').append(tabContent);    
+
+                        lazyControl('lazy');    
+
+                        $('#list-slide{$BLOCK_ID}' + btnId).equalizer();     
+
+                        $('#list-slide{$BLOCK_ID}' + btnId).slide({  
+
+                          slideType : 'carousel',         
+
+                          slideCtrl : {                       
+
+                            showCtrl: true, 
+
+                            wrapCtrl: '#productControl{$BLOCK_ID}' + btnId, 
+
+                            nextBtn: '#nextProduct{$BLOCK_ID}' + btnId,     
+
+                            prevBtn: '#prevProduct{$BLOCK_ID}' + btnId  
+
+                          }                           
+
+                        });     
+
+                      }   
+
+                      $('#tab-vitrin-{$BLOCK_ID} #tab-' + btnId).addClass('current');     
+
+                      $('#tab-vitrin-{$BLOCK_ID} .btn[data-id="' + btnId + '"]').addClass('active');  
+
+                    }           
+
+                  });     
+
+                }       
+
+              });     
+
+              {/if}
+
+            </script>
+
+            {/if}

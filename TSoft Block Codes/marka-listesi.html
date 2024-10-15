@@ -1,0 +1,70 @@
+<div class="col col-12">
+    <div class="row mb">
+        <div class="col col-12 box-border">
+            <div class="row">
+                <div class="col col-12 p-right lightBg pageTitle">
+                    YAYINEVLERİ LİSTESİ
+                    <form action="{$LINK}" class="box col-5 dn-xs fr form-control large">
+                        <div class="col col-9 p-left">
+                            <input name="search" type="text" placeholder="{$TITLE} &raquo; {#search_by_name#}" value="{$SEARCH_WORD}" class="col col-12" />
+                        </div>
+                        <input type="submit" value="{#search#}" class="btn col-3 btn-success btn-medium btn-upper a-center" />
+                    </form>
+                </div>
+                <div class="box col-12 middleItem">
+                    <div class="col col-12">
+                        <div class="row">
+                            
+                            <!--<div class="fl col-5">
+                            {#alphabetical_listing#}
+                        </div>-->
+                            <div class="col col-12 p-left">
+                                <div class="row">
+                                    <div class="box p-top p-right">
+                                        <a href="{$LINK}" class="box box-border">{#all#}</a>
+                                    </div>
+                                    {for $x=0;$x<count($LETTERS);$x++}
+                                        <div class="box p-top p-right">
+                                            <a href="/{$LINK}?letter={$LETTERS.$x}" class="box box-border">{$LETTERS.$x}</a>
+                                        </div>
+                                    {/for}
+                                    <div class="box p-top p-right">
+                                        <a href="{$LINK}?letter=0" class="box box-border">0-9</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--<h4 class="btn btn-default">{#search_result#}</h4>-->
+                            <div class="row">
+                                <div class="col col-12 p-left">
+                                    <div id="tayyip"></div>
+                                    {foreach $DATA_LIST as $D}
+                                        <div class="box col-3 col-md-4 col-sm-6 p-bottom p-right">
+                                            <a href="{$D.URL}" class="col col-12 box-border">
+                                                <span class="row">
+                                                    <span class="btn col-12 btn-medium btn-upper a-center lightBg">{$D.NAME}</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    {foreachelse}
+                                        <div class="box col-12 a-center danger fw700">{#no_result#}</div>
+                                    {/foreach}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col col-12">
+    {if $DISPLAY_PAGINATION}
+        <div class="box fr col-sm-12 a-center">
+            <div class="box-border productPager a-center">
+                {$PAGINATION}
+            </div>
+        </div>
+    {/if}
+</div>
