@@ -3,11 +3,35 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var topBanner = document.querySelector('.topBanner');
+        var fiyatlistesi = document.querySelector('.fiyatlistesi');
         if (window.IS_VENDOR === 0) {
             topBanner.style.display = 'block';
+            fiyatlistesi.style.display = 'none';
         } else {
             topBanner.style.display = 'none';
+            fiyatlistesi.style.display = 'block';
         }
+        // window.damla objesini oluştur
+        window.damla = {};
+        
+        // Değerleri window.damla içine çek
+        window.damla.pageType = PAGE_TYPE;
+        window.damla.memberInfo = MEMBER_INFO;
+        window.damla.isVendor = IS_VENDOR;
+        window.damla.mobileActive = MOBILE_ACTIVE;
+        window.damla.sepetMiktar = SEPET_MIKTAR;
+        window.damla.sepetToplam = SEPET_TOPLAM;
+        window.damla.sessionId = SESS_ID;
+        window.damla.language = LANGUAGE;
+        window.damla.currency = CURRENCY;
+        window.damla.sepDec = SEP_DEC;
+        window.damla.sepTho = SEP_THO;
+        window.damla.serviceInfo = SERVICE_INFO;
+        window.damla.cartCsrfToken = CART_CSRF_TOKEN;
+        window.damla.csrfToken = CSRF_TOKEN;
+        
+        // Test amaçlı damla objesini console'a yazdır
+        console.log(window.damla);
     });
 </script>
 <!-- Android app uyarı -->
