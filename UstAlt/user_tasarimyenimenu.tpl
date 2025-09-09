@@ -2,16 +2,53 @@
 <link rel="stylesheet" href="/Data/EditorFiles/css/stil.css" media="all" rel="stylesheet" type="text/css">
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var topBanner = document.querySelector('.topBanner');
-        var fiyatlistesi = document.querySelector('.fiyatlistesi');
-        if (window.IS_VENDOR === 0) {
-            topBanner.style.display = 'block';
-            fiyatlistesi.style.display = 'none';
-        } else {
-            topBanner.style.display = 'none';
-            fiyatlistesi.style.display = 'block';
-        }
-        // window.damla objesini oluştur
+        
+        // Elementleri seç
+        const topBanner = document.querySelector('.topBanner');
+        const fiyatlistesi = document.querySelector('.fiyatlistesi');
+        const plasiyerisim = document.querySelector('#rep_name');
+        const plasiyertelefon = document.querySelector('#rep_phone');
+        const plasiyermail = document.querySelector('#rep_email');
+        const plasiyerresim = document.querySelector('#rep_img');
+        
+        // Temsilci verilerini tanımla
+        const temsilciVerileri = {
+            "Ahmet Ünal": {
+                telefon: "0533 484 06 26",
+                email: "aunal@damlayayinevi.com.tr",
+                resim: "ahmet-unal.jpg"
+            },
+            "Murat Çetin": {
+                telefon: "0554 534 14 49",
+                email: "mcetin@damlayayinevi.com.tr",
+                resim: "murat-cetin.jpg"
+            },
+            "Erkan Başar": {
+                telefon: "0553 247 37 48",
+                email: "ebasar@damlayayinevi.com.tr",
+                resim: "erkan-basar.jpg"
+            }
+        };
+        
+        // Varsayılan verileri tanımla
+        const varsayilanVeriler = {
+            telefon: "0212 514 28 28",
+            email: "satisdestek@damlayayinevi.com.tr",
+            resim: "genel-merkez.jpg"
+        };
+        
+        // Mevcut temsilci veya varsayılan verileri al
+        const temsilci = temsilciVerileri[MEMBER_INFO.REPRESENTATIVE] || varsayilanVeriler;
+        
+        // Elementleri güncelle
+        if (topBanner) topBanner.style.display = window.IS_VENDOR === 0 ? 'block' : 'none';
+        if (fiyatlistesi) fiyatlistesi.style.display = window.IS_VENDOR === 1 && window.MEMBER_INFO.GROUP === 6 ? 'block' : 'none';
+        
+        if (plasiyerisim) plasiyerisim.textContent = MEMBER_INFO.REPRESENTATIVE;
+        if (plasiyertelefon) plasiyertelefon.textContent = temsilci.telefon;
+        if (plasiyermail) plasiyermail.textContent = temsilci.email;
+        if (plasiyerresim) plasiyerresim.src = 'https://cdn.e-damla.com.tr/PUBLIC/plasiyer/' + temsilci.resim;
+        
         window.damla = {};
         
         // Değerleri window.damla içine çek
@@ -251,7 +288,7 @@
   </div>
 </div>
 <span id="backToTop">{#back_to_top#}</span>
-<div class="col col-12 dn-xs">
+<div class="col col-12 dn-xs topBanner">
   <div class="row">
     <a href="/" class="fl col-12">
       <img src="/Data/EditorFiles/v4-ozel/ust/kargo-zemin.svg" /> <!-- <img src="/theme/v4-dkitap/sub_theme/ust/v4/v4/topBanner.svg" alt=""> -->
